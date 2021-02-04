@@ -44,6 +44,7 @@ Practice safe python. Create a `virtualenv`.
 
 Install the python requirements
 ```
+sudo su -   
 git clone https://github.com/Devoteam2020/molecule-demo.git
 cd  molecule-demo/
 sudo pip3 install -r requirements.txt
