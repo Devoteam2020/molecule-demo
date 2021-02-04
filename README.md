@@ -49,8 +49,10 @@ cd  molecule-demo/
 sudo pip3 install -r requirements.txt
 sudo yum install -y yum-utils
 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-sudo yum makecache 
-sudo yum install docker docker-ce  --allowerasing -y
+sudo yum makecache
+sudo yum install  docker-ce   --allowerasing -y
+ 
+sudo yum install  docker-ce  --allowerasing -y
 sudo systemctl enable --now docker
 ```
 
