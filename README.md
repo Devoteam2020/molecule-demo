@@ -106,11 +106,6 @@ Commands:
 
 ### Create the role 
 Much like `ansible-galaxy init` molecule provides a nice template for new roles. 
-```
-$ molecule init role -r molecule_demo
---> Initializing new role molecule_demo...
-Initialized role in /Users/sblack/Git/rhythmic/molecule_demo successfully.
-```
 
 ### Run ALL the tests 
 ```
