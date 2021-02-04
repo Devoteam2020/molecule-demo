@@ -46,7 +46,7 @@ Install the python requirements
 ```
 git clone https://github.com/Devoteam2020/molecule-demo.git
 cd  molecule-demo/
-pip3 install -r requirements.txt
+sudo pip3 install -r requirements.txt
 sudo yum install -y yum-utils
 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 sudo yum makecache 
